@@ -1,0 +1,19 @@
+id: rd-email-extractor
+
+info:
+  name: RD Email Gathering
+  author: rxerium
+  severity: info
+  metadata:
+    max-request: 1
+
+http:
+  - method: GET
+    path:
+      - "{{BaseURL}}"
+
+    extractors:
+      - type: regex
+        part: body
+        regex:
+          - "(security|responsible-disclosure|responsibledisclosure|sec|csirt|cert|irt|vulnerability)@[A-Za-z0-9_-]+[.](com|org|net|io|gov|co|co.uk|com.mx|com.br|com.sv|co.cr|com.gt|com.hn|com.ni|com.au|com.cn)"
