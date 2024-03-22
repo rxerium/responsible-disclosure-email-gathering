@@ -2,7 +2,7 @@
 
 ## Purpose
 
-You may have found a vulnerability on a host but the said host/org does not have an active program on HackerOne or BugCrowd. If this is the case this workflow is for you as broadly it will crawl the website and look for any security related emails where you can submit your finding. 
+You may have found a vulnerability on a host but the said host/org does not have an active program on HackerOne or BugCrowd. If this is the case this workflow is for you! Broadly it will crawl the website and look for any security related emails from which you can submit your findings.
 
 ## Prerequisites
 
