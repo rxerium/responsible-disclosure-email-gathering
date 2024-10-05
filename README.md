@@ -2,7 +2,7 @@
 
 ## Purpose
 
-You may have found a vulnerability on a host but the said host/org does not have an active program on HackerOne or BugCrowd. If this is the case this workflow is for you! Broadly it will crawl the website and look for any security related emails from which you can submit your findings.
+You may have found a vulnerability on a host but the said host/org does not have an active program on HackerOne or BugCrowd. If this is the case this workflow is for you! Broadly it will crawl the website and look for any security related emails from which you can submit your findings. 
 
 ## Prerequisites
 
@@ -45,3 +45,7 @@ Then run the following:
 ```bash
 cat input.txt | katana -fd rdn -silent | nuclei -t rd-extractor.yaml -stats -silent -o output.txt
 ```
+
+# Contact
+
+If you have any questions feel free to reach out to me on [Signal](https://signal.me/#eu/0Qd68U1ivXNdWCF4hf70UYFo7tB0w-GQqFpYcyV6-yr4exn2SclB6bFeP7wTAxQw) or via email: rishi@rxerium.com.
