@@ -48,4 +48,6 @@ cat input.txt | katana -fd rdn -silent | nuclei -t rd-extractor.yaml -stats -sil
 
 # Contact
 
-If you have any questions feel free to reach out to me on [Signal](https://signal.me/#eu/0Qd68U1ivXNdWCF4hf70UYFo7tB0w-GQqFpYcyV6-yr4exn2SclB6bFeP7wTAxQw) or via email: rishi@rxerium.com.
+If you have any questions please do reach out to me via [Signal](https://signal.me/#eu/0Qd68U1ivXNdWCF4hf70UYFo7tB0w-GQqFpYcyV6-yr4exn2SclB6bFeP7wTAxQw) or via email: rishi@rxerium.com.
+
+*If you'd like to support my work, feel free to donate via [Buy Me a Coffee](buymeacoffee.com/rxerium) — your support means a lot and is truly appreciated!*
